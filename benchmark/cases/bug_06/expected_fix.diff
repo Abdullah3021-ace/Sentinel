@@ -1,0 +1,4 @@
+def can_access(user_is_admin, resource_is_private):
+    if user_is_admin or not resource_is_private:
+        return True
+    return False

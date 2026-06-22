@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "parser.py", line 8, in handle_input
+    return parse_amount(raw_value)
+  File "parser.py", line 3, in parse_amount
+    return int(raw_value)
+ValueError: invalid literal for int() with base 10: 'abc'

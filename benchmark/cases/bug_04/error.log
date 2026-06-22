@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "orders.py", line 4, in create_order
+    shipping_cost = calculate_shipping_cost(weight_kg, destination)
+  File "shipping.py", line 2, in calculate_shipping_cost
+    base_rate = get_base_rate(destination)
+  File "shipping.py", line 6, in get_base_rate
+    return rates[destination]
+KeyError: 'eu'

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "access.py", line 8, in guard_resource
+    allowed = can_access(user_is_admin, resource_is_private)
+AssertionError: non-admin was allowed into private resource

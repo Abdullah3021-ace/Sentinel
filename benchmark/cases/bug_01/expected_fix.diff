@@ -1,0 +1,5 @@
+def charge_card(amount):
+    if amount <= 0:
+        raise ValueError("amount must be positive")
+    result = stripe_charge(amount)
+    return result

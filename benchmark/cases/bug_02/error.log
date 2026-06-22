@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "billing.py", line 5, in apply_discount
+    total = calculate_total(price, quantity)
+  File "billing.py", line 2, in calculate_total
+    return price * quantity
+TypeError: can't multiply sequence by non-int of type 'float'

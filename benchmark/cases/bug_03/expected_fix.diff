@@ -1,0 +1,5 @@
+def get_display_name(user):
+    name = user.get("name")
+    if name is None:
+        return "Guest"
+    return name.strip().title()

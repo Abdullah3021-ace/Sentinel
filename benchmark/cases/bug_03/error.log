@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "profile.py", line 5, in render_profile
+    name = get_display_name(user)
+  File "profile.py", line 2, in get_display_name
+    return user["name"].strip().title()
+AttributeError: 'NoneType' object has no attribute 'strip'

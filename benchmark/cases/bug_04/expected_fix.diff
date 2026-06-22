@@ -1,0 +1,3 @@
+def get_base_rate(destination):
+    rates = {"domestic": 2.5, "international": 8.0}
+    return rates.get(destination, rates["international"])
