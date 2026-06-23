@@ -106,4 +106,3 @@ Built as a 7-day solo project. Core loop, multi-file patching, human approval ga
 
 ---
 
-*Built with Claude as a pair-programming partner.*
