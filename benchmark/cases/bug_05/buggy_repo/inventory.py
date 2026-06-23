@@ -1,5 +1,5 @@
 def check_stock(quantity, threshold):
-    if quantity > threshold:
+    if quantity <= threshold:
         return "low_stock"
     return "ok"
 

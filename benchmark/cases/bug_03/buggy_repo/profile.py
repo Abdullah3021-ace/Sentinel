@@ -1,5 +1,6 @@
 def get_display_name(user):
-    return user["name"].strip().title()
+    name = user.get("name", "Unknown")
+    return name.strip().title()
 
 def render_profile(user):
     name = get_display_name(user)

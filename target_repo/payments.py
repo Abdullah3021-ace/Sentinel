@@ -1,10 +1,8 @@
 def charge_card(amount):
     if amount < 0:
-        raise ValueError('Invalid negative amount provided')
+        raise ValueError('Negative amounts are not allowed')
     result = stripe_charge(amount)
     return result
 
 def stripe_charge(amount):
-    if amount < 0:
-        raise ValueError("amount must be positive")
     return {"status": "charged", "amount": amount}

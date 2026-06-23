@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "cart.py", line 4, in checkout
+    total = apply_tax(subtotal, region)
+  File "pricing.py", line 2, in apply_tax
+    rate = get_tax_rate(region)
+  File "pricing.py", line 6, in get_tax_rate
+    return rates[region]
+KeyError: 'UK'

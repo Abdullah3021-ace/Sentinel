@@ -1,0 +1,3 @@
+def fetch_last_page(items, page_size):
+    total_pages = (len(items) + page_size - 1) // page_size
+    return get_page_items(items, total_pages - 1, page_size)

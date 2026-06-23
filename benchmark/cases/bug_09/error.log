@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "pagination.py", line 7, in fetch_last_page
+    return get_page_items(items, total_pages, page_size)
+AssertionError: expected 2 items on last page, got 0
